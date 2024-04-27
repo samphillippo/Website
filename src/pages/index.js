@@ -1,17 +1,30 @@
 import * as React from 'react'
-import Layout from '../components/layout'
+import Navbar from '../components/navbar'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>This is my personal website. I love Jose.</p>
+    <div>
+      <Navbar />
+      <p>This is my personal website.</p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
-        src="../../images/jose.jpeg"
+        alt="My trip to Yosemite National Park"
+        src="../../images/about_me.JPG"
       />
-    </Layout>
+      <StaticImage
+        alt="A screenshot from my Cube World game"
+        src="../../images/coding_projects.png"
+      />
+      <StaticImage
+        alt="My first performance with Weighted Dice"
+        src="../../images/personal_projects.JPG"
+      />
+      <StaticImage
+        alt="The Northern Lights in Iceland"
+        src="../../images/pictures.jpg"
+      />
+    </div>
   )
 }
 

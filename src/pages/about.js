@@ -1,12 +1,14 @@
 import * as React from 'react'
-import Layout from '../components/layout'
+import Navbar from '../components/navbar'
 import Seo from '../components/seo'
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
-    </Layout>
+    <div>
+      <Navbar />
+      <h1>About Me</h1>
+      <p>Hi there! I'm the proud creator of this site, which is currently in development.</p>
+    </div>
   )
 }
 
