@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,11 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <title>Home Page</title>
+//TODO: Add JSON-LD
+export const Head = () => (
+  <Seo>
+    <script type="application/ld+json">{JSON.stringify({})}</script>
+  </Seo>
+)
 
 export default IndexPage
