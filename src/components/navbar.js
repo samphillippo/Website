@@ -24,6 +24,21 @@ const Navbar = () => {
                 About
             </Link>
             </li>
+            <li className={navLinkItem}>
+            <Link to="/coding" className={navLinkText}>
+                Coding Projects
+            </Link>
+            </li>
+            <li className={navLinkItem}>
+            <Link to="/personal" className={navLinkText}>
+                Personal Projects
+            </Link>
+            </li>
+            <li className={navLinkItem}>
+            <Link to="/pictures" className={navLinkText}>
+                Pictures
+            </Link>
+            </li>
         </ul>
         </nav>
     </div>
