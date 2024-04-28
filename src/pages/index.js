@@ -1,29 +1,31 @@
 import * as React from 'react'
-import Navbar from '../components/navbar'
+import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import { container, title, imageContainer, image, label } from './index.module.css'
 import Seo from '../components/seo'
 
 const IndexPage = () => {
   return (
-    <div>
-      <Navbar />
-      <p>This is my personal website.</p>
-      <StaticImage
-        alt="My trip to Yosemite National Park"
-        src="../../images/about_me.JPG"
-      />
-      <StaticImage
-        alt="A screenshot from my Cube World game"
-        src="../../images/coding_projects.png"
-      />
-      <StaticImage
-        alt="My first performance with Weighted Dice"
-        src="../../images/personal_projects.JPG"
-      />
-      <StaticImage
-        alt="The Northern Lights in Iceland"
-        src="../../images/pictures.jpg"
-      />
+    <div className={container}>
+      <h1 className={title}>Sam Phillippo</h1>
+      <div className={imageContainer}>
+        <Link to="/about">
+          <StaticImage src="../../images/about_me.JPG" alt="My trip to Yosemite National Park" className={image} />
+          <span className={label}>About</span>
+        </Link>
+        <Link to="/coding">
+          <StaticImage src="../../images/coding_projects.png" alt="A screenshot from my Cube World game" className={image} />
+          <span className={label}>Coding Projects</span>
+        </Link>
+        <Link to="/personal">
+          <StaticImage src="../../images/personal_projects.JPG" alt="My first performance with Weighted Dice" className={image} />
+          <span className={label}>Personal Projects</span>
+        </Link>
+        <Link to="/pictures">
+          <StaticImage src="../../images/pictures.jpg" alt="The Northern Lights in Iceland" className={image} />
+          <span className={label}>Pictures</span>
+        </Link>
+      </div>
     </div>
   )
 }
