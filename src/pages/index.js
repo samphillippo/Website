@@ -7,7 +7,6 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <div className={container}>
-      <h1 className={title}>Sam Phillippo</h1>
       <div className={imageContainer}>
         <Link to="/about">
           <StaticImage src="../../images/about_me.JPG" alt="My trip to Yosemite National Park" className={image} />
@@ -26,6 +25,7 @@ const IndexPage = () => {
           <span className={label}>Pictures</span>
         </Link>
       </div>
+      <h1 className={title}>Sam Phillippo</h1>
     </div>
   )
 }
