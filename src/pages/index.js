@@ -18,7 +18,7 @@ const IndexPage = () => {
         </Link>
         <Link to="/personal">
           <StaticImage src="../../images/personal_projects.JPG" alt="My first performance with Weighted Dice" className={image} />
-          <span className={label}>Personal Projects</span>
+          <span className={label}>Side Ventures</span>
         </Link>
         <Link to="/pictures">
           <StaticImage src="../../images/pictures.jpg" alt="The Northern Lights in Iceland" className={image} />

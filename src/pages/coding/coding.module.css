@@ -1,0 +1,37 @@
+.projects-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure projects are in a single row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 20px;
+}
+
+.project {
+    flex: 0 0 auto; /* Prevent projects from growing or shrinking */
+    margin-right: 20px; /* Add spacing between projects */
+    width: 300px; /* Set the width of each project */
+}
+
+.project img {
+    width: 100%; /* Ensure the image fills its container */
+    border-radius: 8px; /* Add rounded corners to the image */
+}
+
+.project h2 {
+    margin-top: 10px; /* Add space between image and title */
+}
+
+.technologies {
+    margin-top: 5px; /* Add space between title and technology list */
+    padding-left: 0; /* Remove default list padding */
+    list-style: none; /* Remove list bullet points */
+}
+
+.technologies li {
+    display: inline; /* Display technologies in a single line */
+    margin-right: 10px; /* Add space between technologies */
+}
+
+.project-link {
+    display: block; /* Display the link as a block element */
+    margin-top: 10px; /* Add space below the technology list */
+}

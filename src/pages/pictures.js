@@ -7,7 +7,7 @@ const PicturesPage = () => {
     <div>
       <Navbar />
       <h1>Pictures</h1>
-      <p>Pictures I like.</p>
+      <p>In the future, I plan to fill this page to the brim with my favorite pictures I've taken and found over the years.</p>
     </div>
   )
 }

@@ -6,12 +6,12 @@ const PersonalPage = () => {
   return (
     <div>
       <Navbar />
-      <h1>Personal Projects</h1>
+      <h1>Side Ventures</h1>
       <p>Completed and in development.</p>
     </div>
   )
 }
 
-export const Head = () => <Seo title="Personal Projects" />
+export const Head = () => <Seo title="Side Ventures" />
 
 export default PersonalPage
