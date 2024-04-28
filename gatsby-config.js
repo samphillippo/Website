@@ -12,7 +12,7 @@ module.exports = {
     title: `Sam Phillippo's Personal Site`,
     description: `A personal site for Sam Phillippo, a software engineer based in Boston, MA. This site is built with Gatsby and hosted on Netlify`,
     twitterUsername: `@SamPhillippo`,
-    image: `./images/jose.jpeg`, //TODO: change this to a real image
+    image: `./images/samphil.jpg`, //TODO: change this to a real image
     siteUrl: `https://samphillippo.xyz/`,
   },
   plugins: [
@@ -38,7 +38,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `images/samphil.jpg`, // This path is relative to the root of the site.
       },
     },
   ],
