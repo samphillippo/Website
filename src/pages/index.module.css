@@ -8,16 +8,16 @@
   }
 
   .title {
-    font-family: 'Roboto Slab', serif;
-    color: rgb(62, 107, 147);
-    /*background-color: aliceblue;*/
+    font-family: 'Bilbao', sans-serif;
+    color: rgb(41, 85, 124);
+    background-color: rgb(182, 219, 253);
     position: absolute;
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1.8);
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);*/
     transition: color 0.3s ease-in-out;
   }
   /*.title:hover {

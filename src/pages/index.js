@@ -25,7 +25,7 @@ const IndexPage = () => {
           <span className={label}>Pictures</span>
         </Link>
       </div>
-      <h1 className={title}>Sam Phillippo</h1>
+      <h1 className={title}>sam phillippo</h1>
     </div>
   )
 }

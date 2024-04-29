@@ -27,6 +27,7 @@ const CodingPage = () => {
 }
 
 //TODO: use the blog structure to programmatically generate the projects
+//BUT: each one may look different... so maybe not?
 
 export const Head = () => <Seo title="Coding Projects" />
 

@@ -1,47 +1,47 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import {
-    container,
-    navLinks,
-    navLinkItem,
-    navLinkText,
-    siteTitle,
-  } from './navbar.module.css'
+  container,
+  navLinks,
+  navLinkItem,
+  navLinkText,
+  siteTitle,
+} from './navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div className={container}>
-        <header className={siteTitle}>Sam Phillippo</header>
-        <nav>
+    <header className={container}>
+      <h1 className={siteTitle}>Sam Phillippo</h1>
+      <nav>
         <ul className={navLinks}>
-            <li className={navLinkItem}>
+          <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-                Home
+              Home
             </Link>
-            </li>
-            <li className={navLinkItem}>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
-                About
+              About
             </Link>
-            </li>
-            <li className={navLinkItem}>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/coding" className={navLinkText}>
-                Coding Projects
+              Coding Projects
             </Link>
-            </li>
-            <li className={navLinkItem}>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/personal" className={navLinkText}>
-                Personal Projects
+              Personal Projects
             </Link>
-            </li>
-            <li className={navLinkItem}>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/pictures" className={navLinkText}>
-                Pictures
+              Pictures
             </Link>
-            </li>
+          </li>
         </ul>
-        </nav>
-    </div>
+      </nav>
+    </header>
   )
 }
 

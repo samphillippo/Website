@@ -1,25 +1,33 @@
 .container {
-    margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
-}
-.heading {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .siteTitle {
+    font-size: 2rem;
     color: rebeccapurple;
-}
-.nav-links {
+    margin-bottom: 20px;
+  }
+
+  .navLinks {
     display: flex;
+    justify-content: space-around;
     list-style: none;
-    padding-left: 0;
-}
-.nav-link-item {
-    padding-right: 2rem;
-}
-.nav-link-text {
+    padding: 0;
+  }
+
+  .navLinkItem {
+    padding: 0 10px;
+  }
+
+  .navLinkText {
     color: black;
-}
-.site-title {
-    font-size: 3rem;
-    color: gray;
-    font-weight: 700;
-    margin: 3rem 0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .navLinkText:hover {
+    color: rebeccapurple;
   }
