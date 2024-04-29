@@ -6,7 +6,7 @@ const PersonalPage = () => {
   return (
     <Layout>
       <h1>Side Ventures</h1>
-      <p>Completed and in development.</p>
+      <h2>WORK IN PROGRESS</h2>
     </Layout>
   )
 }

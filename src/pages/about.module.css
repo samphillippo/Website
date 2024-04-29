@@ -1,11 +1,13 @@
 .profile-picture {
-  max-width: 20%;
+  max-width: 15%;
   height: auto;
 }
 
 .profile-section {
   text-align: center;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .profile-section h1 {
@@ -16,12 +18,12 @@
 .mission-statement {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #f3e8ee;
 }
 
 .mission-statement p {
   font-size: 1.2rem;
-  color: #555;
+  color: #aaa;
+  line-height: 1.6;
 }
 
 .links-section {

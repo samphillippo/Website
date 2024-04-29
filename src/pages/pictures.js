@@ -6,6 +6,7 @@ const PicturesPage = () => {
   return (
     <Layout>
       <h1>Pictures</h1>
+      <h2>WORK IN PROGRESS</h2>
       <p>In the future, I plan to fill this page to the brim with my favorite pictures I've taken and found over the years.</p>
     </Layout>
   )

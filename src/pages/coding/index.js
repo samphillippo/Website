@@ -11,6 +11,7 @@ const CodingPage = () => {
       <h1>Coding Projects</h1>
       <div class={projectsContainer}>
         <div class={project}>
+          <h2>WORK IN PROGRESS</h2>
           <Link to="/">
             <StaticImage src="../../../images/coding_projects.png" alt="Project 1" />
             <h2>Cube World</h2>
