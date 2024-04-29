@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { profileSection, profilePicture, linksSection, experienceSection, missionStatement } from './about.module.css'
+import { profileSection, profilePicture, linksSection, experienceSection, missionStatement, resumeButton } from './about.module.css'
 import Layout from '../components/layout';
 import Seo from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image';
@@ -30,6 +30,9 @@ const AboutPage = () => {
         <h2>Favorite Things</h2>
         <p>Favorite things here.</p>
       </div>
+      <a href="/sam_phillippo_resume.pdf" download className={resumeButton}>
+        Download Resume
+      </a>
     </Layout>
   );
 };
