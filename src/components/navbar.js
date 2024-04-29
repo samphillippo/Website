@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   return (
     <header className={container}>
-      <h1 className={siteTitle}>Sam Phillippo</h1>
+      <h1 className={siteTitle}>sam phillippo</h1>
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Navbar from '../../components/navbar'
+import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 import { Link } from 'gatsby'
 import { projectsContainer, project, technologies } from './coding.module.css'
@@ -7,8 +7,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const CodingPage = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>Coding Projects</h1>
       <div class={projectsContainer}>
         <div class={project}>
@@ -22,7 +21,7 @@ const CodingPage = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 

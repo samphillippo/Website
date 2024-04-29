@@ -5,8 +5,9 @@
   }
 
   .siteTitle {
-    font-size: 2rem;
-    color: rebeccapurple;
+    font-family: 'Soin Sans Pro', sans-serif;
+    font-size: 4rem;
+    color: #6184d8;
     margin-bottom: 20px;
   }
 
@@ -22,7 +23,7 @@
   }
 
   .navLinkText {
-    color: black;
+    color: #f3e8ee;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease-in-out;

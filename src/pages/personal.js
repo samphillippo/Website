@@ -1,14 +1,13 @@
 import * as React from 'react'
-import Navbar from '../components/navbar'
+import Layout from '../components/layout'
 import Seo from '../components/seo'
 
 const PersonalPage = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>Side Ventures</h1>
       <p>Completed and in development.</p>
-    </div>
+    </Layout>
   )
 }
 

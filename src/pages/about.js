@@ -1,13 +1,12 @@
 import * as React from 'react'
 import { aboutMeContainer, profileSection, linksSection, experienceSection, missionStatement } from './about.module.css'
-import Navbar from '../components/navbar'
+import Layout from '../components/layout';
 import Seo from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image';
 
 const AboutPage = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <div className={aboutMeContainer}>
         <div className={profileSection}>
           <h1>About Me</h1>
@@ -33,7 +32,7 @@ const AboutPage = () => {
           <p>Favorite things here.</p>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 

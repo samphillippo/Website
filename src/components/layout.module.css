@@ -1,25 +1,15 @@
-.container {
-    margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
+body {
+    background-color: #222e50;
 }
-.heading {
-    color: rebeccapurple;
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f3e8ee;
 }
-.nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
+
+h1 {
+    font-size: 2.5rem;
+    color: #15786e;
 }
-.nav-link-item {
-    padding-right: 2rem;
-}
-.nav-link-text {
-    color: black;
-}
-.site-title {
-    font-size: 3rem;
-    color: gray;
-    font-weight: 700;
-    margin: 3rem 0;
-  }
