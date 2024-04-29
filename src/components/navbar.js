@@ -1,17 +1,34 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image';
 import {
   container,
   navLinks,
   navLinkItem,
   navLinkText,
   siteTitle,
+  titleLogoContainer,
+  logo,
+  logoContainer,
 } from './navbar.module.css'
 
 const Navbar = () => {
   return (
     <header className={container}>
-      <h1 className={siteTitle}>sam phillippo</h1>
+      <div className={titleLogoContainer}>
+        <h1 className={siteTitle}>sam phillippo</h1>
+        <div className={logoContainer}>
+          <a href="https://github.com/samphillippo">
+            <StaticImage src="../../images/github_logo.png" alt="Github" className={logo} />
+          </a>
+          <a href="https://www.linkedin.com/in/sam-phillippo/">
+            <StaticImage src="../../images/linkedin_logo.png" alt="LinkedIn" className={logo} />
+          </a>
+          <a href="mailto:samphillippo1@gmail.com">
+            <StaticImage src="../../images/email_logo.png" alt="Email" className={logo} />
+          </a>
+        </div>
+      </div>
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
