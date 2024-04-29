@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
           <li className={navLinkItem}>
             <Link to="/personal" className={navLinkText}>
-              Personal Projects
+              Side Quests
             </Link>
           </li>
           <li className={navLinkItem}>

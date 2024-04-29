@@ -10,9 +10,19 @@ const AboutPage = () => {
       <div className={profileSection}>
         <h1>About Me</h1>
         <StaticImage src="../../images/samphil.png" alt="Profile Picture" className={profilePicture}/>
-        <p className={missionStatement}>
-          Mission Statement here
-        </p>
+        <h2>Let me introduce myself...</h2>
+        <div className={missionStatement}>
+          <p>I am a software engineer actively seeking employment beginning in Summer 2024.
+          Graduating with highest honors, I earned a Bachelor of Science in Computer Science from Northeastern University.
+          </p>
+          <p>My primary interests thus far have been computer vision, machine-learning, and
+          Natural Language Processing, but I've been lucky enough to experience nearly all areas of computer science throughout
+          my career!
+          </p>
+          <p>Feel free to explore my website, and if you believe I may be a good fit for your
+          organization, or just share some common interests, please don't hesitate to reach out at samphillippo1@gmail.com.
+          </p>
+        </div>
       </div>
       <div className={linksSection}>
         <h2>Links</h2>
