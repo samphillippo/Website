@@ -1,12 +1,14 @@
 import * as React from 'react'
 import Navbar from './navbar';
-import './layout.module.css'
+import { container } from './layout.module.css'
 
 const Layout = ({ children }) => {
   return (
       <div>
           <Navbar />
-          {children}
+          <div className={container}>
+            {children}
+          </div>
       </div>
   );
 };
