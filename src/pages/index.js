@@ -2,13 +2,12 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
-import { container, imageContainer, image, label } from './index.module.css'
+import { imageContainer, image, label } from './index.module.css'
 import Seo from '../components/seo'
 
 const IndexPage = () => {
   return (
     <Layout>
-      <div className={container}>
         <div className={imageContainer}>
           <Link to="/about">
             <StaticImage src="../../images/about_me.JPG" alt="My trip to Yosemite National Park" className={image} />
@@ -27,8 +26,6 @@ const IndexPage = () => {
             <span className={label}>Pictures</span>
           </Link>
         </div>
-        {/* <h1 className={title}>Sam Phillippo</h1> */}
-      </div>
     </Layout>
   )
 }

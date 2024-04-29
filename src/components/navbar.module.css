@@ -1,34 +1,34 @@
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  .siteTitle {
-    font-family: 'Soin Sans Pro', sans-serif;
-    font-size: 4rem;
-    color: #6184d8;
-    margin-bottom: 20px;
-  }
+.siteTitle {
+  font-family: 'Soin Sans Pro', sans-serif;
+  font-size: 4rem;
+  color: #6184d8;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
 
-  .navLinks {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-  }
+.navLinks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
 
-  .navLinkItem {
-    padding: 0 10px;
-  }
+.navLinkItem {
+  padding: 0 50px;
+}
 
-  .navLinkText {
-    color: #f3e8ee;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-  }
+.navLinkText {
+  color: #f3e8ee;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
 
-  .navLinkText:hover {
-    color: rebeccapurple;
-  }
+.navLinkText:hover {
+  color: rebeccapurple;
+}
