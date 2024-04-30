@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { profileSection, profilePicture, introText, experienceSection, missionStatement, resumeButton } from './about.module.css'
+import { profileSection, profilePicture, sectionTitle, experienceSection, missionStatement, resumeButton } from './about.module.css'
 import Layout from '../components/layout';
 import Seo from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image';
@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <Layout>
       <h1>About Me</h1>
-      <h2 className={introText}>Let me introduce myself.</h2>
+      <h2 className={sectionTitle}>Let me introduce myself.</h2>
       <div className={profileSection}>
         <StaticImage src="../../images/samphil.png" alt="Profile Picture" className={profilePicture}/>
         <div className={missionStatement}>

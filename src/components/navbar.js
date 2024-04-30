@@ -7,6 +7,7 @@ import {
   navLinkItem,
   navLinkText,
   siteTitle,
+  siteTitleLink,
   titleLogoContainer,
   logo,
   logoContainer,
@@ -16,7 +17,9 @@ const Navbar = () => {
   return (
     <header className={container}>
       <div className={titleLogoContainer}>
-        <h1 className={siteTitle}>sam phillippo</h1>
+        <a href="/" className={siteTitleLink}>
+          <h1 className={siteTitle}>sam phillippo</h1>
+        </a>
         <div className={logoContainer}>
           <a href="https://github.com/samphillippo">
             <StaticImage src="../../images/github_logo.png" alt="Github" className={logo} />
@@ -31,11 +34,6 @@ const Navbar = () => {
       </div>
       <nav>
         <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Home
-            </Link>
-          </li>
           <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
               About
