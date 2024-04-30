@@ -2,25 +2,18 @@ body {
     background-color: #222e50;
 }
 
-/* p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f3e8ee;
-} */
-
 h1 {
     font-size: 1.5rem;
     color: #15786e;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     letter-spacing: 2px;
     font-family: 'Arial', sans-serif;
     font-weight: 300;
 }
 
 .container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Vertically center items */
+    align-items: center;
     padding-top: 175px;
 }
