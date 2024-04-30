@@ -35,6 +35,12 @@
   line-height: 1.6;
 }
 
+.email-link {
+  color: #2af5ff;
+  text-decoration: none;
+
+}
+
 .links-section {
   margin-bottom: 30px;
 }

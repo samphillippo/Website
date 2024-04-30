@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { profileSection, profilePicture, sectionTitle, experienceSection, missionStatement, resumeButton } from './about.module.css'
+import { profileSection, profilePicture, sectionTitle, emailLink, experienceSection, missionStatement, resumeButton } from './about.module.css'
 import Layout from '../components/layout';
 import Seo from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image';
@@ -20,7 +20,8 @@ const AboutPage = () => {
           my career!
           </p>
           <p>Feel free to explore my website, and if you believe I may be a good fit for your
-          organization, or just share some common interests, please don't hesitate to reach out at samphillippo1@gmail.com.
+          organization, or just share some common interests, please don't hesitate to reach out
+          at <span><a href="mailto:samphillippo1@gmail.com" className={emailLink}>samphillippo1@gmail.com</a></span>.
           </p>
         </div>
       </div>
